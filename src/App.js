@@ -1,12 +1,13 @@
 import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
    
-      <h1 className="text-blue-600 text-3xl">NetflixGPT APP</h1>
+     <Body/>
   
-    </div>
+    // </div>
   );
 }
 
