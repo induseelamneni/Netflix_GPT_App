@@ -73,9 +73,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Configuring Project Netflix GPT 
 -create react app
 -configure tailwind 
-
--Hesder
+-Routing to Login Page
+-Header
 -Login Form
+-Signup Form
+-Form Validations
+-useRef Hook
+-Firebase Setup
+-Deploying our app to production
+-Create signup user account
+-Impliment Sign in user API
+-Created Redux store with user slice
+-Implimented Signout
+-Update profile -not working -need to fix bug
+
 
 ### Features 
 -Login/Singup Form 
