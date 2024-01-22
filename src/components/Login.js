@@ -28,10 +28,6 @@ const Login = () => {
 
     }
     const handleButtonClick = (e) => {
-          console.log(name)
-          console.log(email)
-       
-    
         const message = checkValidations(email.current.value, password.current.value)
         
       
@@ -65,14 +61,11 @@ const Login = () => {
   
           setErrorMsg(error.message)
         });
-       
-        console.log(user)
  
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    console.log(errorCode + " "+ errorMessage)
     setErrorMsg(errorCode + " "+ errorMessage )
    
     // ..
@@ -82,15 +75,13 @@ const Login = () => {
     .then((userCredential) => {
     // Signed in 
       const user = userCredential.user;
-      navigate("/browser")
-      console.log(user)
     // ...
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
     setErrorMsg(errorCode + " "+ errorMessage )
-    navigate("/")
+   
   });
 }
 }
