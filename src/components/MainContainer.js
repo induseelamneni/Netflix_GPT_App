@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import MovieTitleContainer from "./MovieTitleContainer";
 import MovieTrailerContainer from "./MovieTrailerContainer";
 
@@ -7,13 +7,6 @@ const MainContainer = () => {
     if (!movies) return 
 
     const {title,overview,id} = movies[0]
- 
-
-
-
-
-
-
       return(
         <div >
        <MovieTitleContainer movieTitle = {title} overview={overview}/>

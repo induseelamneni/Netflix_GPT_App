@@ -10,6 +10,7 @@ export const API_OPTIONS = {
     }
   };
 
+export const IMG_CON_URL = "https://image.tmdb.org/t/p/w200/"
 
 //API KEY : 9d48258ee0eed137385f3f8cb41d73c0
 
