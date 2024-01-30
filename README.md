@@ -30,6 +30,8 @@
 -Build Movie Card
 -TMDB CDN IMG URL
 -Build usePopularMovies , useTopRatedMovies,useUpComingMovies custom hooks.
+-Build GPT Search Page
+-Build Multy Language Search Option
 
 
 

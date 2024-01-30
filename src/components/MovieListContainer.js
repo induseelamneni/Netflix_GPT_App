@@ -6,7 +6,6 @@ const MovieListContainer = () => {
   const popularMovies = useSelector(store => store.movies.popularMovies)
   const topRatedMovies = useSelector(store => store.movies.topRatedMovies)
   const upcoming = useSelector(store => store.movies.upComingMovies)
-  console.log(upcoming,"upcoming")
  
     return(
       NowPlayingMovies&& (

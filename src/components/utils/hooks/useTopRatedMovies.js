@@ -11,7 +11,6 @@ import { useEffect } from "react"
 
         const  data = await fetch("https://api.themoviedb.org/3/movie/top_rated",API_OPTIONS)
         const jsonData = await data.json()
-        // console.log(jsonData.results)
         dispatch(addTopRatedMovies(jsonData.results))
 
     }
@@ -22,7 +21,3 @@ import { useEffect } from "react"
 }
 
 export default useTopRatedMovies
-
-
- 
-//https://api.themoviedb.org/3/movie/upcoming

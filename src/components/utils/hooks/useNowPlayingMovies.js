@@ -11,7 +11,6 @@ import { useEffect } from "react"
 
         const  data = await fetch("https://api.themoviedb.org/3/movie/now_playing?page=1",API_OPTIONS)
         const jsonData = await data.json()
-        // console.log(jsonData.results)
         dispatch(addMovies(jsonData.results))
 
     }
@@ -22,8 +21,3 @@ import { useEffect } from "react"
 }
 
 export default useNowPlayingMovies
-
-//https://api.themoviedb.org/3/movie/popular
-//https://api.themoviedb.org/3/movie/top_rated
- 
-//https://api.themoviedb.org/3/movie/upcoming

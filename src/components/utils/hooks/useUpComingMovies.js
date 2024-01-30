@@ -11,7 +11,6 @@ import { useEffect } from "react"
 
         const  data = await fetch("https://api.themoviedb.org/3/movie/upcoming",API_OPTIONS)
         const jsonData = await data.json()
-        console.log(jsonData.results,"up")
         dispatch(addUpcomingMovies(jsonData.results))
 
     }
