@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import './App.css';
 import Body from './components/Body';
 import { Provider } from 'react-redux';
@@ -15,10 +16,16 @@ function App() {
     // </div>
 =======
 import logo from './logo.svg';
+=======
+>>>>>>> app first commit
 import './App.css';
+import Body from './components/Body';
+import { Provider } from 'react-redux';
+import appStore from './components/utils/appStore';
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -36,6 +43,12 @@ function App() {
       </header>
     </div>
 >>>>>>> Initialize project using Create React App
+=======
+    <Provider store={appStore}>
+   
+    <Body/>
+    </Provider>
+>>>>>>> app first commit
   );
 }
 

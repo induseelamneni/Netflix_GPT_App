@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> app first commit
 ### Configuring Project Netflix GPT 
 -create react app
 -configure tailwind 
@@ -52,6 +55,7 @@
 -Netflix GPT
    -Search Bar 
    -Movie Suggestion 
+<<<<<<< HEAD
 =======
 # Getting Started with Create React App
 
@@ -124,3 +128,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> Initialize project using Create React App
+=======
+>>>>>>> app first commit

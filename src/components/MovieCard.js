@@ -11,5 +11,8 @@ const MovieCard = ({poster}) => {
 }
 
 export default MovieCard
+<<<<<<< HEAD
 
 //1E5baAaEse26fej7uHcjOgEE2t2.jpg
+=======
+>>>>>>> app first commit

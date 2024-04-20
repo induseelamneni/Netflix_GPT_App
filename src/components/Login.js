@@ -30,7 +30,10 @@ const Login = () => {
     }
     const handleButtonClick = (e) => {
         const message = checkValidations(email.current.value, password.current.value)
+<<<<<<< HEAD
         
+=======
+>>>>>>> app first commit
       
         setErrorMsg(message )
 

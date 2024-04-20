@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // Import the functions you need from the SDKs you need
+=======
+>>>>>>> app first commit
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth} from "firebase/auth";

@@ -6,7 +6,11 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
+<<<<<<< HEAD
       Authorization: 'Bearer '+ process.env.REACT_APP_TMDB_KEY
+=======
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZDQ4MjU4ZWUwZWVkMTM3Mzg1ZjNmOGNiNDFkNzNjMCIsInN1YiI6IjY1YTdhMzU5OGNmY2M3MDEyMzE2Y2IyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qhVMLy64ukI5AJGGa8JF3zY9RJlZihtm_st2FpUBOjA'
+>>>>>>> app first commit
     }
   };
 
@@ -20,5 +24,9 @@ export const SUPORTED_LANGUAGES = [
   {identifier:"tel",name:"Telugu"},
   {identifier:"span",name:"Spanish"},
 ]
+<<<<<<< HEAD
 
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
+=======
+export const OPENAI_KEY = "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"
+>>>>>>> app first commit

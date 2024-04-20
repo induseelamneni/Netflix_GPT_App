@@ -14,4 +14,8 @@ const appStore = configureStore({
 
 })
 
+<<<<<<< HEAD
 export default appStore
+=======
+export default appStore
+>>>>>>> app first commit
