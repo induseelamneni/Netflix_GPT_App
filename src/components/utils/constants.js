@@ -20,4 +20,4 @@ export const SUPORTED_LANGUAGES = [
   {identifier:"tel",name:"Telugu"},
   {identifier:"span",name:"Spanish"},
 ]
-export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
+// export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
