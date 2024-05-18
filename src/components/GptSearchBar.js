@@ -7,7 +7,6 @@ const GptSearchBar = () => {
     const selectedLanguage = useSelector(store => store.language.lang)
    
     const searchText = useRef(null)
-    console.log(searchText)
 
     const handleGptSearchClick = async() => {
         
