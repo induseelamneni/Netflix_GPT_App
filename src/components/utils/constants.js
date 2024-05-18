@@ -20,6 +20,3 @@ export const SUPORTED_LANGUAGES = [
   {identifier:"tel",name:"Telugu"},
   {identifier:"span",name:"Spanish"},
 ]
-//API KEY : 9d48258ee0eed137385f3f8cb41d73c0
-
-//API READ ACCESS TOKEN : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZDQ4MjU4ZWUwZWVkMTM3Mzg1ZjNmOGNiNDFkNzNjMCIsInN1YiI6IjY1YTdhMzU5OGNmY2M3MDEyMzE2Y2IyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qhVMLy64ukI5AJGGa8JF3zY9RJlZihtm_st2FpUBOjA
