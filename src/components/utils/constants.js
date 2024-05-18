@@ -21,5 +21,5 @@ export const SUPORTED_LANGUAGES = [
   {identifier:"span",name:"Spanish"},
 ]
 
-//moved key to env
+
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
