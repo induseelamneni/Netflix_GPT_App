@@ -21,19 +21,12 @@ const Login = () => {
     const email = useRef(null)
     const password = useRef(null)
   
-
-
-
     const onClickSignup = () => {
         setIsSignIn(!isSignIn)
 
     }
     const handleButtonClick = (e) => {
         const message = checkValidations(email.current.value, password.current.value)
-<<<<<<< HEAD
-        
-=======
->>>>>>> app first commit
       
         setErrorMsg(message )
 

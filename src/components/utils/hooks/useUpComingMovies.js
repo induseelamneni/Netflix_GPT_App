@@ -20,12 +20,4 @@ import { useEffect } from "react"
     },[])
 }
 
-<<<<<<< HEAD
 export default useUpComingMovies
-
-
- 
-//https://api.themoviedb.org/3/movie/upcoming
-=======
-export default useUpComingMovies
->>>>>>> app first commit

@@ -20,13 +20,4 @@ import { useEffect } from "react"
     },[])
 }
 
-<<<<<<< HEAD
 export default usePopularMovies
-
-//https://api.themoviedb.org/3/movie/popular
-//https://api.themoviedb.org/3/movie/top_rated
- 
-//https://api.themoviedb.org/3/movie/upcoming
-=======
-export default usePopularMovies
->>>>>>> app first commit

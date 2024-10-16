@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> app first commit
 import Browser from "./Browser";
 import Login from "./Login";
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
-
-
-
-
 
 const Body = () => {
   
@@ -23,11 +15,6 @@ const Body = () => {
         }
     ])
 
-<<<<<<< HEAD
- 
-
-=======
->>>>>>> app first commit
  return(
     <div>
         <RouterProvider  router = {appRouter}/>

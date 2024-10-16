@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> app first commit
 import { useSelector } from "react-redux";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
