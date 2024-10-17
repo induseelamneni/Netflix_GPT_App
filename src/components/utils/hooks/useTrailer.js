@@ -12,7 +12,7 @@ const useTrailer = (movieId) => {
 
          const mainVideos = await videoData.json()
    
-         const filteredVideo = mainVideos.results.filter((each) => each.type === "Trailer")
+         const filteredVideo = mainVideos?.results?.filter((each) => each.type === "Trailer")
 
          const trialer = filteredVideo.length? filteredVideo[0] : mainVideos.results[0];
        

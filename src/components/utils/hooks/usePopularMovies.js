@@ -11,8 +11,8 @@ import { useEffect } from "react"
 
         const  data = await fetch("https://api.themoviedb.org/3/movie/popular",API_OPTIONS)
         const jsonData = await data.json()
-        dispatch(addPopularMovies(jsonData.results))
-
+        dispatch(addPopularMovies(jsonData?.results))
+        
     }
 
     useEffect(() => {

@@ -77,5 +77,3 @@ const selectedOption = (e) => {
 }
 
 export default Header;
-
-// src="https://lh3.googleusercontent.com/a/ACg8ocJ3bN77215G12HMHlXZTIjvNXejYkVS-Ymznl7r6zmNp2eS=s288-c-no"

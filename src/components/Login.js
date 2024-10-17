@@ -22,10 +22,11 @@ const Login = () => {
     const password = useRef(null)
   
     const onClickSignup = () => {
-        setIsSignIn(!isSignIn)
+      setIsSignIn(!isSignIn)
 
     }
     const handleButtonClick = (e) => {
+    
         const message = checkValidations(email.current.value, password.current.value)
       
         setErrorMsg(message )
@@ -115,3 +116,5 @@ return(
 }
 
 export default Login;
+
+//handleButtonClick

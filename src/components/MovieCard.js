@@ -1,13 +1,12 @@
 import {IMG_CON_URL} from "./utils/constants"
 const MovieCard = ({poster}) => {
 
+    if(!poster) return null
+
     return(
         <div className="w-48 pr-4">
         <img src=  {IMG_CON_URL + poster}  alt="movie-poster"/>
-        </div>
-       
+        </div>  
     )
-
 }
-
 export default MovieCard

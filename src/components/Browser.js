@@ -19,7 +19,7 @@ const Browser =() =>  {
     
     return(
        <>
-            <Header/>
+            <Header />
             {isGptSearch ? 
              <>
              <MainContainer />

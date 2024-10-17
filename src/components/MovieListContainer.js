@@ -10,7 +10,7 @@ const MovieListContainer = () => {
     return(
       NowPlayingMovies&& (
         <div className="bg-black">
-      <div className="-mt-64 pl-12 relative z-20">
+      <div className="-mt-64 pl-12 relative z-20 overflow-x-hidden">
       <DifferentGenremovieList title = {"NowPlaying Movies"} movies = {NowPlayingMovies}/>
       <DifferentGenremovieList title = {"TopRated"} movies = {topRatedMovies}/>
       <DifferentGenremovieList title = {"Upcoming"} movies = {upcoming}/>
