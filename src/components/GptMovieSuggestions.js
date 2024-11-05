@@ -5,6 +5,7 @@ import DifferentGenremovieList from "./DifferentGenremovieList";
 const GptMovieSuggestions =() => {
 
     const {movieNames, movieResults} = useSelector(store => store.gptSearch)
+    console.log(movieNames, "movies")
 
     if(!movieNames) return <Shimmer/>
 

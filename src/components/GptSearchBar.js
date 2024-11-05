@@ -5,11 +5,13 @@ import { useRef, useState } from "react";
 import { API_OPTIONS } from "./utils/constants";
 import { addGptMovieResults } from "./utils/gptSearchSlice";
 import GptMovieSuggestions from "./GptMovieSuggestions";
+import MovieContainer from "./MovieContainer"
+
 const GptSearchBar = () => {
     const [btnClicked,isBtnClicked] = useState(false) 
     const dispatch = useDispatch()
     const selectedLanguage = useSelector(store => store.language.lang)
-   
+    const userSelectedMovie = useSelector(store => store.moviesIds?.movieId)
     const searchText = useRef(null)
 
     const searchMovieTMDB = async (movie) => {
@@ -45,9 +47,10 @@ const GptSearchBar = () => {
           
         //   const gptMovies = gptResults.choices?.[0]?.message?.content.split(",")
         isBtnClicked(true)
-
-        const gptMovies = ["Athadu","Ashta Chamma","Malliswari","Aha Naa Pellanta","Nuvvu Naaku Nachchav"]
+       //below are dummy gpt results if have openAI key you can fetch dnamically
+        const gptMovies = ["Athadu","Ashta Chamma","Malliswari","Aha Naa Pellanta","Fun and Frustration"]
         const data = gptMovies.map(movie => searchMovieTMDB(movie))
+        console.log(data,"test")
         const tmdbResults = await Promise.all(data)
         dispatch(addGptMovieResults({movieNames:gptMovies,movieResults:tmdbResults}))
 
@@ -68,6 +71,13 @@ const GptSearchBar = () => {
         <button className="col-span-3 bg-red-700 py-4 m-4 rounded-lg" onClick={handleGptSearchClick}>{langue[selectedLanguage].language}</button>
      </form>
     
+     </div>
+     <div>
+     {userSelectedMovie && <div className="h-[650px] w-[950px] flex justify-center items-center fixed z-40 top-0 bg-white top-36 left-96">
+          <MovieContainer movieId = {userSelectedMovie}  className="full-screen"/>
+          </div>
+     }
+         
      </div>
       <div>
       {btnClicked &&  <GptMovieSuggestions/>}

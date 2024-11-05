@@ -21,13 +21,12 @@ const Browser =() =>  {
        <>
             <Header />
             {isGptSearch ? 
-             <>
-             <MainContainer />
-             <MovieListContainer/>
-             </>
             
-            : 
             <GptSearchContainer/> 
+            : <>
+            <MainContainer />
+            <MovieListContainer/>
+            </>
            
             }
             

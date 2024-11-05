@@ -4,6 +4,7 @@ import MovieTrailerContainer from "./MovieTrailerContainer";
 
 const MainContainer = () => {
     const movies = useSelector(store => store.movies?.nowPlayingMovies)
+   
     if (!movies) return 
 
     const {title,overview,id} = movies[0]

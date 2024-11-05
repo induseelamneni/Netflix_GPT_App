@@ -57,7 +57,7 @@ const selectedOption = (e) => {
                className="w-44"
                />
               {user && <div className="flex align-items-center w-22 mr-10 h-10 mt-4 pr-2">
-                {!isGptSearch && 
+                {isGptSearch && 
                   <select className="mr-2 rounded-lg p-2" onChange={selectedOption}>{
                     SUPORTED_LANGUAGES.map((lan) => (
                       <option key={lan.identifier} value={lan.identifier}>{lan.name}</option>
@@ -66,7 +66,7 @@ const selectedOption = (e) => {
                   </select>
                 }
                 
-              <button className="text-white bg-purple-600 p-2 mr-2 rounded-lg text-bold text-xl" onClick={onToggleBtn}>{isGptSearch? "GPT Search" : "HomePage"}</button>
+              <button className="text-white bg-purple-600 p-2 mr-2 rounded-lg text-bold text-xl" onClick={onToggleBtn}>{isGptSearch? "HomePage" :"GPT Search" }</button>
                
                 <img src = {USER_ICON}  alt="user-photo" />
                <button onClick={handleSignOut} className="text-white text-bold text-xl ml-2">Sign Out</button>

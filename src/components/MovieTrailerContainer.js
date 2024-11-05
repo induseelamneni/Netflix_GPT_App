@@ -3,7 +3,6 @@ import useTrailer from "./utils/hooks/useTrailer"
 
 const MovieTrailerContainer = ({movieId}) => { 
     const trailerVideo = useSelector(store => store.movies.movieId)
-
     useTrailer(movieId)
 
     return(
